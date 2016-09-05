@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Hello World!"
+        android:visibility="visible"
+        android:inputType="number"
+        android:gravity="center"
+        android:drawableRight="@drawable/first"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textSize="30dp"
+        android:textColor="#FF00"
+        android:autoLink="phone"
+        android:textAllCaps="true"
+
+
+    />
+
+
+    <EditText
+        android:text="EditText继承了TextView所有的属性"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/edittext"
+        android:layout_below="@+id/textview"
+        android:inputType="textPersonName"
+        android:visibility="visible"
+        android:gravity="center"
+        android:drawableRight="@drawable/first"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textSize="30dp"
+        android:textColor="#FF00"
+        android:autoLink="phone"
+        android:textAllCaps="true"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Button集成了TextView的所有属性"
+        android:visibility="visible"
+        android:inputType="number"
+        android:gravity="center"
+        android:drawableRight="@drawable/first"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textSize="30dp"
+        android:textColor="#FF00"
+        android:autoLink="phone"
+        android:textAllCaps="true"
+        android:layout_below="@+id/edittext"
+        />
+
+
+    <RadioButton
+        android:text="RodioButton继承Button "
+        android:id="@+id/radiobutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="visible"
+        android:inputType="number"
+        android:gravity="center"
+        android:drawableRight="@drawable/first"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textSize="30dp"
+        android:textColor="#FF00"
+        android:autoLink="phone"
+        android:textAllCaps="true"
+        android:layout_below="@+id/button"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/checkbox"
+            android:layout_below="@+id/radiobutton"
+            android:text="CheckBox继承Button"
+            />
+
+
+</RelativeLayout>
+
